@@ -1,0 +1,11 @@
+Options +FollowSymLinks
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    #Caso o site sempre esteja dando 404 no rewrite rule abaixo,
+    #talvez seja necessário usar a diretiva RewriteBase
+    #veja http://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewritebase
+    #RewriteBase ???
+    RewriteRule (.*) core/dispatcher.php?route=$1    [QSA,L]
+</IfModule>

@@ -1,0 +1,9 @@
+Options +FollowSymLinks
+
+<Files ~ "[^dispatcher.php]">
+	Order allow,deny
+</Files>
+
+<IfModule mod_rewrite.c>
+	RewriteEngine off
+</IfModule>
