@@ -1,0 +1,28 @@
+{
+    "name": "ejcmdinofaurus/iridium",
+    "description" : "Iridium Framework",
+    "keywords": ["framework", "iridium"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "^5.6"
+    },
+    "authors": [
+        {
+            "name": "Daniel Lima",
+            "email": "daniellima.pessoal@gmail.com"
+        },
+        {
+            "name": "Felipe de Souza",
+            "email": "de.souza258@gmail.com"
+        },
+        {
+            "name": "Luke Gonzalez",
+            "email": "lucasmgonzalez1992@gmail.com"
+        },
+        {
+            "name": "Pedro Barros",
+            "email": "pedrobarros.dev@gmail.com"
+        }
+    ]
+}
